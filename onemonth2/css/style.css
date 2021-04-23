@@ -1,0 +1,63 @@
+/* 
+
+Project Name: Sasuke Uchiha
+Author: Rares Florentin	
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	/*background: url('../images/cookie-monster.jpg');*/
+	/* the follow is the code to have the image display as a full page */
+
+	background: url('../images/2716992.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container
+{
+	background: transparent;	
+	width: 424px;
+	color: white;
+	padding: 0px;
+}
+h1{
+	font-size: 80px;
+	font-family: 'Zen Dots', cursive;
+}
+
+h2
+{
+background: 	transparent;
+color: white;
+padding: 15px;
+border-radius: 5px;
+font-family: 'Original Surfer', cursive;
+}
+
+a
+{
+	color: #fa3d1b;
+	text-decoration: none;
+	font-family: 'Original Surfer', cursive;
+}
+
+p
+{
+	color: #707070	;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#video
+{
+	position: absolute;
+	padding-left: 1100px;
+	top: 500px;
+	background: transparent;
+	opacity: 80%;
+}
