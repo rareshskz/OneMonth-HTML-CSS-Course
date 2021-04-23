@@ -59,7 +59,7 @@ h2{
 
 
 #container {
-     width: 1000px;
+     width: 1100px;
 margin: 0 auto 0 auto;
 
 }
@@ -105,19 +105,13 @@ a{
      font-weight: bold;
 }
 #border-radius {
-     border-radius: 100px;
+
+     border-bottom-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+     width: 150px;
+     height: 150px;
 }
 blockquote {
      margin-left: 20px;
 }
 
-#footer {
-display: block;
-box-sizing: border-box;
-margin-left: 130px;
-margin-bottom: 10px;
-margin-right: 0;
-margin-top: 0;
-
-     
-}
